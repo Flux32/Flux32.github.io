@@ -1,0 +1,240 @@
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    top: 0px;
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 50px;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.header__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__link--company-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.header__page-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__link {
+    color: black;
+}
+
+.header__authorization {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+}
+
+.footer__title {
+    font-size: 18px;
+    font-weight: regular;
+}
+
+.footer__text {
+    font-size: 14px;
+    font-weight: regular;
+}
+
+.combo-box {
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: regular;
+    padding: 10px;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 30px;
+    border-color: black;
+}
+
+.footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__email-form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.career-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rounded-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    text-anchor: middle;
+    background-color: #349beb;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    background-color: #f7f7f7;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.area__about {
+    display: flex;
+    justify-content: center;
+}
+
+.areas {
+    display: flex;
+    flex-direction: column;
+}
+
+.area {
+    padding: 50px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.area_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab {
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+}
+
+.tab__title-wrapper {
+    text-align: center;
+}
+
+.tab__title {
+    margin: 0 auto 17px;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.tab__subtitle-container {
+    width: 710px;
+    text-align: center;
+}
+
+.tab__subtitle {
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+}
+
+.tab__buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.tab__buttons-wrapper>*+* {
+    margin-left: 20px;
+}
+
+.tab__button-container {
+    width: 200px;
+    height: 20px;
+    background: #92A0AD;
+    border-radius: 4px;
+}
+
+.tab__button-container--active
+{
+    background: #2E80B6;
+}
+
+.tab__button {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.tab__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fade 1s;
+}
+
+.tab__about-picture {
+    margin-bottom: 17px;
+    border-radius: 30px;
+}
+
+.hide {
+    display: none !important;
+}

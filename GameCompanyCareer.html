@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game Company - Трудоустройство</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__left">
+            <a href="GameCompanyMain.html" class="header__link header__link--company-name">Имя компании</a>
+
+            <div class="header__page-navigation">
+                <a href="GameCompanyOurGames.html" class="header__link">Наши игры</a>
+                <a href=# class="header__link">Издательство</a>
+                <a href="GameCompanyCareer.html" class="header__link">Карьера</a>
+                <a href=# class="header__link">Контакты</a>
+            </div>
+        </div>
+
+        <div class="header__authorization">
+            <a href=# class="rounded-button">Регистрация</a>
+            <a href=# class="rounded-button">Войти</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="areas">
+            <section class="area">
+                <div class="area__title">Трудоустройство в Game Company</div>
+
+                <p class="area__text">Мы постоянно ищем талантливых и энергичных людей, готовых работать в команде и создавать качественные игры.</p>
+                <p class="area__text">Если вы хотите стать частью нашей команды, заполните форму ниже и отправьте свое резюме.</p>
+
+                <form class="career-form" action="#" method="post">
+                    <label class="area__text" for="name">ФИО:</label>
+                    <input class="input" type="text" id="name" name="name" required>
+
+                    <label class="area__text" for="email">Email:</label>
+                    <input class="input" type="email" id="email" name="email" required>
+
+                    <label class="area__text" for="phone">Телефон:</label>
+                    <input class="input" type="tel" id="phone" name="phone" required>
+
+                    <label class="area__text" class="area__text" for="position">Должность:</label>
+                    <select class="combo-box" id="position" name="position" required>
+                        <option value="">Выберите должность</option>
+                        <option value="game-designer">Гейм-дизайнер</option>
+                        <option value="programmer">Программист</option>
+                        <option value="artist">Художник</option>
+                        <option value="tester">Тестировщик</option>
+                    </select>
+
+                    <label class="area__text" for="resume">Резюме:</label>
+                    <input type="file" id="resume" name="resume" required>
+
+                    <button class="rounded-button" type="submit">Отправить заявку</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__contact-us">
+            <div class="col-md-4">
+                <div class="footer__title">Контакты</div>
+                <ul>
+                    <li class="footer__text">Телефон: 8-800-131-59-67</li>
+                    <li class="footer__text">Email: info@gamecompany.com</li>
+                    <li class="footer__text">Адрес: г. Уфа, ул. улица, д. 123, офис 456</li>
+                </ul>
+            </div>
+            <div class="footer__subscribe">
+                <div class="footer__title">Подписаться на новости</div>
+                <form class="footer__email-form" action="#" method="post">
+                    <input class="input" type="email" placeholder="Email" required>
+                    <button class="rounded-button" type="submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__all-rights-reserved">
+            <hr>
+            <p class="footer__text">&copy; 2021 Game Company. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
